@@ -1,0 +1,12 @@
+version: '2'
+
+# 定义scratch服务
+services:
+  scratch:
+    privileged: true
+    image: wisbyme/scratch-kids:latest
+    ports:
+      - "80:80"
+      
+    restart: unless-stopped
+    container_name: scratch
