@@ -1,2 +1,2 @@
 # scratchkids
-Docker of scratch-kids
+Docker image for Scratch-Kids
